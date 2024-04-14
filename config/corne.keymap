@@ -14,19 +14,19 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp DELETE
-                                &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp DELETE
+                                &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_ALT
             >;
         };
 
         lower_layer {
             bindings = <
-&kp CAPSLOCK      &kp F1   &kp F2   &kp F3    &kp F4   &kp F5       &kp HOME   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp EQUAL     &kp BSPC
-&kp LEFT_CONTROL  &kp F6   &kp F7   &kp F8    &kp F9   &kp F10      &kp KP_N0  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp PAGE_UP
-&kp LEFT_SHIFT    &kp F11  &kp F12  &kp F13   &kp F14  &kp F15      &kp END    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MINUS  &kp PAGE_DOWN
-                                    &kp LGUI  &trans   &kp SPACE    &kp RET    &trans     &kp RALT
+&kp CAPSLOCK      &kp F1   &kp F2   &kp F3    &kp F4   &kp F5       &kp HOME   &kp KP_N7  &kp KP_N8     &kp KP_N9  &kp EQUAL     &kp BSPC
+&kp LEFT_CONTROL  &kp F6   &kp F7   &kp F8    &kp F9   &kp F10      &kp KP_N0  &kp KP_N4  &kp KP_N5     &kp KP_N6  &kp KP_PLUS   &kp PAGE_UP
+&kp LEFT_SHIFT    &kp F11  &kp F12  &kp F13   &kp F14  &kp F15      &kp END    &kp KP_N1  &kp KP_N2     &kp KP_N3  &kp KP_MINUS  &kp PAGE_DOWN
+                                    &kp LGUI  &trans   &kp SPACE    &kp RET    &trans     &kp LEFT_ALT
             >;
         };
 
@@ -35,7 +35,7 @@
 &kp TILDE         &kp EXCL       &kp AT                &kp HASH               &kp DLLR          &kp PRCNT            &kp CARET   &kp AMPS        &kp ASTRK     &trans           &kp PRINTSCREEN  &kp BSPC
 &kp LEFT_CONTROL  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans           &kp ESCAPE
 &kp LEFT_SHIFT    &trans         &kp PIPE              &kp UNDERSCORE         &kp LEFT_BRACE    &kp RIGHT_BRACE      &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
-                                                       &kp LGUI               &trans            &kp SPACE            &kp RET     &trans          &kp LALT
+                                                       &kp LGUI               &trans            &kp SPACE            &kp RET     &trans          &kp LEFT_ALT
             >;
         };
     };
