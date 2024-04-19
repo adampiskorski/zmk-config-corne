@@ -32,7 +32,7 @@
 
         lower_layer {
             bindings = <
-&kp TILDE         &kp EXCL       &kp AT          &kp HASH              &kp DLLR               &kp PRCNT     &kp CARET  &kp AMPS        &kp ASTRK     &kp PRINTSCREEN  &kp PLUS   &kp BSPC
+&kp TILDE         &kp EXCL       &kp AT          &kp HASH              &kp DLLR               &kp PRCNT     &kp CARET  &kp AMPS        &kp ASTRK     &kp LC(B)        &kp PLUS   &kp BSPC
 &kp LEFT_CONTROL  &kp BACKSLASH  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DELETE    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp EQUAL  &kp ESCAPE
 &kp LEFT_SHIFT    &kp GRAVE      &kp PIPE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp INS       &kp HOME   &kp END         &kp PAGE_UP   &kp PAGE_DOWN    &kp MINUS  &kp RIGHT_SHIFT
                                                  &kp LGUI              &kp LEFT_ALT           &kp SPACE     &kp RET    &trans          &trans
@@ -41,10 +41,10 @@
 
         raise_layer {
             bindings = <
-&kp CAPSLOCK      &kp F1   &kp F2   &kp F3    &kp F4        &kp F5       &kp LC(B)     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
-&kp LEFT_CONTROL  &kp F6   &kp F7   &kp F8    &kp F9        &kp F10      &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp LC(C)
-&kp LEFT_SHIFT    &kp F11  &kp F12  &kp F13   &kp F14       &kp F15      &kp LC(Z)     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp LC(V)
-                                    &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp RET       &trans        &trans
+&kp CAPSLOCK      &kp F1   &kp F2   &kp F3    &kp F4        &kp F5       &kp PRINTSCREEN  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
+&kp LEFT_CONTROL  &kp F6   &kp F7   &kp F8    &kp F9        &kp F10      &kp NUMBER_0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp LC(C)
+&kp LEFT_SHIFT    &kp F11  &kp F12  &kp F13   &kp F14       &kp F15      &kp LC(Z)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp LC(V)
+                                    &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp RET          &trans        &trans
             >;
         };
 
