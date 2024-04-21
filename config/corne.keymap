@@ -23,10 +23,10 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F         &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V         &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                              &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp RET  &mo 1  &mo 2
+&kp TAB         &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
+                              &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp RET  &mo 1  &mo 2
             >;
         };
 
@@ -35,16 +35,16 @@
 &kp TILDE         &kp EXCL   &kp AT                &kp HASH               &kp DLLR       &kp PRCNT     &kp CARET  &kp AMPS        &kp ASTRK     &kp LC(B)        &kp PLUS   &kp BSPC
 &kp LEFT_SHIFT    &kp UNDER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp DELETE    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp EQUAL  &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE      &kp INS       &kp HOME   &kp END         &kp PAGE_UP   &kp PAGE_DOWN    &kp MINUS  &kp ESCAPE
-                                                   &kp LGUI               &kp LEFT_ALT   &kp SPACE     &kp RET    &trans          &trans
+                                                   &trans                 &trans         &trans        &trans     &trans          &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp CAPSLOCK      &kp F1   &kp F2   &kp F3    &kp F4        &kp F5       &kp PRINTSCREEN  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
-&kp LEFT_SHIFT    &kp F6   &kp F7   &kp F8    &kp F9        &kp F10      &kp NUMBER_0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp LC(C)
-&kp LEFT_CONTROL  &kp F11  &kp F12  &kp F13   &kp F14       &kp F15      &kp LC(Z)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp LC(V)
-                                    &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp RET          &trans        &trans
+&kp CAPSLOCK      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5     &kp PRINTSCREEN  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
+&kp LEFT_SHIFT    &kp F6   &kp F7   &kp F8   &kp F9   &kp F10    &kp NUMBER_0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp LC(C)
+&kp LEFT_CONTROL  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LC(Z)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp LC(V)
+                                    &trans   &trans   &trans     &trans           &trans        &trans
             >;
         };
 
