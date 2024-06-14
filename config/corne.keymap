@@ -32,10 +32,10 @@
 
         lower_layer {
             bindings = <
-&kp TILDE         &kp EXCL   &kp AT                &kp HASH       &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS        &kp ASTRK     &kp INSERT       &kp PLUS   &kp BSPC
-&kp LEFT_SHIFT    &kp UNDER  &kp LEFT_BRACKET      &kp BACKSLASH  &kp RIGHT_BRACKET      &kp DELETE        &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS  &kp ESCAPE
-&kp LEFT_CONTROL  &kp PIPE   &kp LEFT_PARENTHESIS  &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp SCROLLLOCK    &kp HOME   &kp END         &kp PAGE_UP   &kp PAGE_DOWN    &kp EQUAL  &kp RIGHT_SHIFT
-                                                   &trans         &trans                 &trans            &trans     &trans          &trans
+&kp TILDE         &kp EXCL   &kp AT                &kp HASH       &kp DLLR               &kp PRCNT     &kp CARET  &kp AMPS        &kp ASTRK     &kp SCROLLLOCK   &kp PLUS   &kp BSPC
+&kp LEFT_SHIFT    &kp UNDER  &kp LEFT_BRACKET      &kp BACKSLASH  &kp RIGHT_BRACKET      &kp DELETE    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS  &kp ESCAPE
+&kp LEFT_CONTROL  &kp PIPE   &kp LEFT_PARENTHESIS  &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp INSERT    &kp HOME   &kp END         &kp PAGE_UP   &kp PAGE_DOWN    &kp EQUAL  &kp RIGHT_SHIFT
+                                                   &trans         &trans                 &trans        &trans     &trans          &trans
             >;
         };
 
