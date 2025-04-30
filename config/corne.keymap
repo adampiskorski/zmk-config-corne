@@ -42,10 +42,10 @@
 
         raise_layer {
             bindings = <
-&kp CAPSLOCK      &kp F1  &kp F2          &kp F3   &kp F4           &kp F5     &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
-&kp LEFT_SHIFT    &kp F6  &kp LEFT_BRACE  &kp F7   &kp RIGHT_BRACE  &kp F8     &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &kp ESCAPE
-&kp LEFT_CONTROL  &kp F9  &kp F10         &kp F11  &kp F12          &kp F13    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp RIGHT_SHIFT
-                                          &trans   &trans           &trans     &trans        &trans        &trans
+&kp CAPSLOCK      &kp F1  &kp F2          &kp F3   &kp F4           &kp F5       &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &kp BSPC
+&kp LEFT_SHIFT    &kp F6  &kp LEFT_BRACE  &kp F7   &kp RIGHT_BRACE  &kp F8       &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &kp ESCAPE
+&kp LEFT_CONTROL  &kp F9  &kp F10         &kp F11  &kp F12          &kp LC(A)    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp RIGHT_SHIFT
+                                          &trans   &trans           &trans       &trans        &trans        &trans
             >;
         };
 
