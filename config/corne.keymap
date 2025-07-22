@@ -58,9 +58,9 @@
 
         utility_layer {
             bindings = <
-&none  &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &mkp RCLK    &out OUT_USB          &out OUT_BLE          &kp C_PREVIOUS    &kp C_NEXT    &kp C_MUTE          &kp C_VOLUME_UP
-&none  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_Y(600)  &mmv MOVE_X(600)   &mkp LCLK    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PLAY_PAUSE  &kp C_REWIND  &kp C_FAST_FORWARD  &kp C_VOLUME_DOWN
-&none  &msc SCRL_LEFT     &msc SCRL_UP       &msc SCRL_DOWN    &msc SCRL_RIGHT   &mkp MCLK    &bt BT_CLR            &bt BT_SEL 4          &bt BT_SEL 3      &bt BT_SEL 2  &bt BT_SEL 1        &bt BT_SEL 0
+&none   &mkp RCLK   &mmv MOVE_LEFT     &mmv MOVE_UP       &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &out OUT_USB          &out OUT_BLE          &kp C_PREVIOUS    &kp C_NEXT    &kp C_MUTE          &kp C_VOLUME_UP
+&none   &mkp LCLK   &mmv MOVE_X(-450)  &mmv MOVE_Y(-450)  &mmv MOVE_Y(450)  &mmv MOVE_X(450)     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PLAY_PAUSE  &kp C_REWIND  &kp C_FAST_FORWARD  &kp C_VOLUME_DOWN
+&none   &mkp MCLK   &msc SCRL_LEFT     &msc SCRL_UP       &msc SCRL_DOWN    &msc SCRL_RIGHT  &bt BT_CLR            &bt BT_SEL 4          &bt BT_SEL 3      &bt BT_SEL 2  &bt BT_SEL 1        &bt BT_SEL 0
                                              &trans            &trans            &trans       &trans                &trans                &trans
             >;
         };
